@@ -23,11 +23,13 @@ form {
   color: #f65282;
 }
 .search {
+  align-items: center;
   background: #885df1;
   color: #fff;
   border-radius: 5px;
 }
 .enter {
+  align-items: center;
   background: #f9f7fe;
   border-radius: 5px;
 }
