@@ -58,7 +58,10 @@ form {
   background: #d4d7da;
   color: #ffffff;
 }
-
+.icon {
+  text-align: center;
+  font-size: 40px;
+}
 .num {
   text-align: center;
   font-size: 40px;
