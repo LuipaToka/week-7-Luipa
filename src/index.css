@@ -4,8 +4,8 @@ body {
     rgb(39, 199, 171) 0%,
     rgb(70, 143, 197) 90%
   );
-  animation: gradient 5s ease infinite;
-  font-family: "Courier New", Courier, monospace;
+  animation: gradient 10s ease infinite;
+  font-family: "Oswald", sans-serif;
 }
 .current-weather.city {
   display: flex;
@@ -16,6 +16,7 @@ main {
   padding: 40px;
   margin: 100px 400px 100px 400px;
   border-radius: 10px;
+  border: #ff6104;
 }
 
 form {
@@ -26,8 +27,11 @@ form {
 .current-weather .humid {
   color: #f65282;
 }
+.current-weather .wind {
+  color: #f65282;
+}
 .search {
-  background: #f9f7fe;
+  background: #e0c6cb;
   border-radius: 5px;
   text-align: center;
   color: #b0eed1;
@@ -40,9 +44,9 @@ form {
 
 .enter {
   align-items: center;
-  background: #885df1;
   color: #fff;
   border-radius: 5px;
+  background: #d4d7da;
 }
 .search:hover {
   cursor: pointer;
@@ -55,4 +59,7 @@ form {
   top: -20px;
   left: 500px;
   font-size: 100%;
+}
+footer {
+  text-align: center;
 }
