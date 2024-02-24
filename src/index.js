@@ -11,11 +11,10 @@ function dateTime() {
   } else if (hours < 10) {
     hours = `0${hours}`;
   }
+  setInterval(dateTime, 1000);
 }
 
 dateTime();
-
-setInterval(dateTime, 1000);
 
 function enterCity(event) {
   event.preventDefault();
@@ -45,5 +44,12 @@ function temperatureToday(response) {
   windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="icon" />`;
 }
+function handleSearchSubmit(event) {
+  event.preventDefault();
+  let searchInput = document.querySelector("#enter");
+
+  searchCity(searchInput.value);
+}
+searchCity("Paris");
 let Forms = document.querySelector(".form");
 Forms.addEventListener("submit", enterCity);
