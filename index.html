@@ -24,7 +24,8 @@
             type="search"
             placeholder="Enter a city.."
             required
-            class="enter" id="enter"
+            class="enter"
+            id="enter"
           />
           <input type="submit" value="Search" class="search" />
         </form>
@@ -33,9 +34,10 @@
 
       <div class="current-weather">
         <div>
-          <h1 class="city">Paris</h1>
+          <h1 class="city" id="city">Paris</h1>
           <p>
-            <span id="time-stamp">Saturday 15:32</span>, moderate rain <br />
+            <span id="time-stamp">Saturday 15:32</span>,
+            <span class="info" id="info">Moderate rain </span> <br />
             Humidity: <strong class="humid" id="humid">87%</strong>, Wind:
             <strong class="wind" id="wind">7.2km/h</strong>
           </p>
@@ -43,10 +45,12 @@
         <div class="temp">
           <strong
             ><span class="icon" id="icon">☀️</span>
-            <span class="num" id="num">14</span><span> °C</span></strong
+            <span class="num" id="num">14</span
+            ><span class="unit" id="unit"> °C</span></strong
           >
         </div>
       </div>
+      <div class="weather-forecast" id="forecast"></div>
 
       <footer>
         <p>
