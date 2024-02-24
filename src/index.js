@@ -35,15 +35,15 @@ function temperatureToday(response) {
   let cities = document.querySelector(".city");
   cities.innerHTML = response.data.city;
 
-   let descriptionElement = document.querySelector("#description");
-   let humidityElement = document.querySelector("#humid");
-   let windSpeedElement = document.querySelector("#wind");
-   let iconElement = document.querySelector("#icon");
+  let descriptionElement = document.querySelector("#description");
+  let humidityElement = document.querySelector("#humid");
+  let windSpeedElement = document.querySelector("#wind");
+  let iconElement = document.querySelector("#icon");
 
-   descriptionElement.innerHTML = response.data.condition.description;
-   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-   windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
-    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="icon" />`;
+  descriptionElement.innerHTML = response.data.condition.description;
+  humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+  windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
+  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="icon" />`;
 }
 let Forms = document.querySelector(".form");
 Forms.addEventListener("submit", enterCity);
