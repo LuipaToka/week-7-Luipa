@@ -1,8 +1,8 @@
 body {
   background: radial-gradient(
     circle at 10% 20%,
-    rgb(39, 199, 171) 0%,
-    rgb(70, 143, 197) 90%
+    rgb(243, 94, 131) 17.1%,
+    rgb(236, 212, 80) 89.7%
   );
   animation: gradient 10s ease infinite;
   font-family: "Oswald", sans-serif;
@@ -34,17 +34,17 @@ form {
   background: #e0c6cb;
   border-radius: 5px;
   text-align: center;
-  color: #b0eed1;
+  color: #154aa1;
   display: block;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid #885df1;
+  border: 1px solid #ffaebd;
   box-shadow: 5px 5px 5px;
 }
 
 .enter {
   align-items: center;
-  color: #fff;
+  color: #000;
   border-radius: 5px;
   background: #d4d7da;
 }
