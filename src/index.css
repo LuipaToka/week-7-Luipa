@@ -1,15 +1,19 @@
 body {
-  background: #cd236a;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(39, 199, 171) 0%,
+    rgb(70, 143, 197) 90%
+  );
+  animation: gradient 5s ease infinite;
   font-family: "Courier New", Courier, monospace;
 }
-.city {
+.current-weather.city {
   display: flex;
   justify-content: space-around;
+  font-size: 200px;
 }
 main {
-  background: #fff;
   padding: 40px;
-
   margin: 100px 400px 100px 400px;
   border-radius: 10px;
 }
@@ -28,13 +32,27 @@ form {
   color: #fff;
   border-radius: 5px;
 }
+
 .enter {
-  align-items: center;
   background: #f9f7fe;
   border-radius: 5px;
+  text-align: center;
+  color: #b0eed1;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #885df1;
+  box-shadow: 5px 5px 5px;
 }
+.enter:hover {
+  cursor: pointer;
+  background: #885df1;
+  color: #ffffff;
+}
+
 .temp {
   position: relative;
   top: -20px;
   left: 500px;
+  font-size: 100%;
 }
