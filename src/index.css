@@ -1,7 +1,13 @@
 body {
         background: #f9f7fe;
-        font-family: "Courier New", Courier, monospace;
-      }
+        
+  font-family: "Oswald", sans-serif;
+  
+ 
+}
+    a{ 
+       color: #FFAEBD; 
+    }  
       .city {
         display: flex;
         justify-content: space-around;
