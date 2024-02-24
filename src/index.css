@@ -27,13 +27,6 @@ form {
   color: #f65282;
 }
 .search {
-  align-items: center;
-  background: #885df1;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.enter {
   background: #f9f7fe;
   border-radius: 5px;
   text-align: center;
@@ -44,7 +37,14 @@ form {
   border: 1px solid #885df1;
   box-shadow: 5px 5px 5px;
 }
-.enter:hover {
+
+.enter {
+  align-items: center;
+  background: #885df1;
+  color: #fff;
+  border-radius: 5px;
+}
+.search:hover {
   cursor: pointer;
   background: #885df1;
   color: #ffffff;
