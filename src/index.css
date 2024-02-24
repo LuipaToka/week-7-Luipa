@@ -13,10 +13,15 @@ body {
   font-size: 200px;
 }
 main {
-  padding: 40px;
-  margin: 100px 400px 100px 400px;
+  overflow: visible;
+  background: rgba(228, 228, 228, 0.55);
   border-radius: 10px;
-  border: #ff6104;
+  box-shadow: 5px 30px 50px rgba(164, 168, 171, 0.418);
+  max-width: 600px;
+  padding: 50px 20px 100px 20px;
+  display: block;
+  margin: auto;
+  backdrop-filter: blur(10px);
 }
 
 form {
@@ -54,11 +59,13 @@ form {
   color: #ffffff;
 }
 
-.temp {
-  position: relative;
-  top: -20px;
-  left: 500px;
-  font-size: 100%;
+.num {
+  text-align: center;
+  font-size: 400px;
+}
+.unit {
+  text-align: center;
+  font-size: 400px;
 }
 footer {
   text-align: center;
