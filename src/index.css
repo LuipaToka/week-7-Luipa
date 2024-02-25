@@ -32,11 +32,11 @@ form {
 }
 .current-weather .humid {
   color: #f65282;
-  font-size: 40px;
+  font-size: 20px;
 }
 .current-weather .wind {
   color: #f65282;
-  font-size: 40px;
+  font-size: 20px;
 }
 .search {
   background: #e0c6cb;
@@ -82,9 +82,18 @@ footer {
 }
 .current-weather .info {
   text-align: center;
-  font-size: 60px;
+  font-size: 20px;
 }
-.current-weather .time-stamp {
+.current-weather .windy {
   text-align: center;
-  font-size: 60px;
+  font-size: 20px;
+}
+
+.humidity {
+  text-align: center;
+  font-size: 20px;
+}
+.current-weather .time {
+  text-align: center;
+  font-size: 20px;
 }
