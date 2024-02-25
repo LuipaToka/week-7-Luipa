@@ -8,6 +8,7 @@ body {
   font-family: "Oswald", sans-serif;
 }
 .current-weather.city {
+  text-align: center;
   display: flex;
   justify-content: space-around;
   font-size: 200px;
@@ -31,9 +32,11 @@ form {
 }
 .current-weather .humid {
   color: #f65282;
+  font-size: 40px;
 }
 .current-weather .wind {
   color: #f65282;
+  font-size: 40px;
 }
 .search {
   background: #e0c6cb;
@@ -48,10 +51,12 @@ form {
 }
 
 .enter {
-  align-items: center;
+  text-align: center;
   color: #000;
   border-radius: 5px;
   background: #d4d7da;
+  border: none;
+  float: inline-end;
 }
 .search:hover {
   cursor: pointer;
@@ -67,9 +72,19 @@ form {
   font-size: 40px;
 }
 .unit {
-  text-align: center;
-  font-size: 20px;
+  float: inline-end;
+  margin-top: -80px;
+  margin-right: 220px;
+  font-size: 40px;
 }
 footer {
   text-align: center;
+}
+.current-weather .info {
+  text-align: center;
+  font-size: 60px;
+}
+.current-weather .time-stamp {
+  text-align: center;
+  font-size: 60px;
 }
