@@ -72,13 +72,13 @@ form {
 }
 .num {
   float: inline-end;
-  margin-top: -50px;
+  margin-top: -20px;
   margin-right: 250px;
   font-size: 40px;
 }
 .unit {
   float: inline-end;
-  margin-top: -80px;
+  margin-top: -60px;
   margin-right: 220px;
   font-size: 40px;
 }
