@@ -78,8 +78,8 @@ form {
 }
 .unit {
   float: inline-end;
-  margin-top: -0.5px;
-  margin-right: -210px;
+  margin-top: -20px;
+  margin-right: 210px;
   font-size: 40px;
 }
 footer {
