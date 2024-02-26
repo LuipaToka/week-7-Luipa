@@ -19,7 +19,7 @@
   <body>
     <main>
       <header>
-        <form class="form">
+        <form class="form" id="form">
           <input
             type="search"
             placeholder="Enter a city.."
@@ -34,28 +34,33 @@
       <div class="current-weather">
         <div>
           <h1 class="city" id="city">Paris</h1>
-          <p>
-            <span class="time" id="time-stamp">Saturday 15:32</span>,
+          <p class="data">
+            <span class="time" id="time-stamp">Saturday, 15:32</span>,
             <span class="info" id="info">Moderate rain </span> <br />
             <span class="humidity">Humidity:</span>
-            <strong class="humid" id="humid">87%</strong>, <span class="windy">Wind:</span>
+            <strong class="humid" id="humid">87%</strong>,
+            <span class="windy">Wind:</span>
             <strong class="wind" id="wind">7.2km/h</strong>
           </p>
         </div>
         <div class="temp">
           <strong
-            ><span class="icon" id="icon">☀️</span> <br />
+            ><span class="icon" id="icon"></span> <br />
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/shower-rain-day.png"
+            />
             <span class="num" id="num">14</span
             ><span class="unit" id="unit"> °C</span></strong
           >
         </div>
       </div>
       <div class="weather-forecast" id="forecast"></div>
+      <br />
     </main>
     <footer>
       <p class="footer">
         This project was coded by
-        <a href="https://github.com/LuipaToka">Elizabeth Toka</a> and is
+        <a href="https://github.com/LuipaToka">Luipa Toka</a> and is
         <a href="https://github.com/LuipaToka/week-7-Luipa"> on GitHub</a> and
         <a href="https://main--luipa-week-7.netlify.app/">hosted on Netlify</a>
       </p>
